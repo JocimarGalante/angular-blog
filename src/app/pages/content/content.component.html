@@ -1,15 +1,24 @@
 <div class="container__content">
-  <div class="content__cover">
-    <img src="{{ photoCover }}" alt="" srcset="">
+  <div class="col-lg-5" style="text-align: left">
+    <button [routerLink]="['']" type="button" class="btn btn-primary mt-3">
+      VOLTAR
+    </button>
   </div>
-  <div class="content__title">
+  <div class="content__cover mt-5">
+    <img src="{{ photoCover }}" alt="" srcset="" />
+  </div>
+  <div class="content__title mt-2">
     <h1>{{ contentTitle }}</h1>
     <hr />
   </div>
   <div class="content__description">
-    <a [routerLink]="['']"> << VOLTAR </a>
     <p>
       {{ contentDescription }}
     </p>
+  </div>
+  <div class="content__description">
+    <a href="{{linkDescription}}">
+      <button type="button" class="btn btn-info">Saiba Mais</button>
+    </a>
   </div>
 </div>

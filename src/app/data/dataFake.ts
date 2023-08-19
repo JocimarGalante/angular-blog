@@ -1,14 +1,30 @@
 export const dataFake = [
   {
     "id":"1",
-    "title": "NOVO HOMEM DE FERRO EM 3D",
-    "description": "marvel anuncia um novo filme do homem de ferro, confira",
-    "photoCover":"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/7F51FA9F6CBD9F0C9B1394B1CC0A6A842D07091318674E234CD33CBF7C28CDC3/scale?width=1200&aspectRatio=1.78&format=jpeg"
+    "title": "CONHEÇA NOSSOS SERVIÇOS",
+    "description": "Manutenção de PC e Notebook, para mais informações, clica no saiba mais.",
+    "photoCover":"https://lh3.googleusercontent.com/p/AF1QipPUK4GTX4rB6N_t65ows-8Z3S4xTLio4Fq_lGy2=w1080-h608-p-no-v0",
+    "link": "https://jcgalante.negocio.site/"
   },
   {
     "id":"2",
-    "title": "Nova Série anunciada no Disney +",
-    "description": "bla blabla",
-    "photoCover":"https://disneyplusbrasil.com.br/wp-content/uploads/2021/07/Series-Marvel-Disney-Plus-1024x576.jpg"
+    "title": "Marvel's Avengers - The Definitive Edition",
+    "description": "Venha conhecer a Gameplay, clicando no saiba mais.",
+    "photoCover":"../../../assets/image/_Marvel'sAvengers.png",
+    "link": "https://www.youtube.com/watch?v=0s97XYsd9gs&list=PL1pAjpqrdD_FIGUjqbl6t3B3rTcK7eZNl&index=14"
+  },
+  {
+    "id":"3",
+    "title": "A Plague Tale Innocence",
+    "description": "Venha conhecer a Gameplay, clicando no saiba mais.",
+    "photoCover":"../../../assets/image/A_Plague_Tale_Innocence.png",
+    "link": "https://www.youtube.com/watch?v=UgYmiC3bmcQ&list=PL1pAjpqrdD_GgoOtzx4WA7NV0F8C9IEec&index=17"
+  },
+  {
+    "id":"4",
+    "title": "Dark Sector",
+    "description": "Venha conhecer a Gameplay, clicando no saiba mais.",
+    "photoCover":"../../assets/image/Dark_Sector.png",
+    "link": "https://www.youtube.com/watch?v=qbcu6180EcE&list=PL1pAjpqrdD_GvVMR2CYD-Y9JRSraKrHSX"
   }
 ]
